@@ -4,7 +4,7 @@ import { ListOfCharacters } from './components/ListOfCharacter';
 
 
 function App() {
-  const [page, setPage] = useState(42);
+  const [page, setPage] = useState(1);
 
   const nextPage = () => {
     setPage( page + 1);
